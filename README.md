@@ -28,3 +28,9 @@ final content = [Content.text(message)];
 final response = await model.generateContent(content);
 
 This above snippet code initializes a GenerativeModel object with the specified model (‘gemini-pro’) and API key. Then, it prepares the content to be sent to the AI model (Basically a Text/prompt message), which consists of a list containing a single text content (message). Finally, it sends this content to the Gemini AI model and awaits the response, which will contain the AI-generated content based on the input message user provide.
+<br><br>
+
+<h2>Application sreenshot</h2><br>
+
+![Application screen shot](assets/one.png)
+
