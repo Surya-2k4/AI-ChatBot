@@ -5,22 +5,23 @@ Gemini API key i have used in this project : AIzaSyCJFuAoKhUSle7hxyr8S6ah6wDEWxg
 
 Download your API Key : https://aistudio.google.com/app/apikey
 
-*1. Create or open a Flutter project*
+<b>1. Create or open a Flutter project
 
-*2. Add dependencies*
+2. Add dependencies<br>
 Open pubspec.yaml file from your flutter project and under depencencies section add below dependencies
 
-dependencies:
-  google_generative_ai:  
-  intl:
+dependencies:<br>
+    ```google_generative_ai:```
+      <br>
+    ```intl:```
+    
 
-_google generative ai: used to communicate with gemini AI._
-_intl: used for DataTime Formating._
+<i>google generative ai: used to communicate with gemini AI.<br>
+intl: used for DataTime Formating.</i>
 
 
 *Basic Information on how to use google generative ai package (code explanation)*
 
-This is Snippet Code- Not Complete Code- Find Complete code below with UI design Chat App
 
 final model = GenerativeModel(model: 'gemini-pro', apiKey: apiKey);
 final content = [Content.text(message)];
