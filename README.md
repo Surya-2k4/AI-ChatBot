@@ -1,8 +1,5 @@
 # AI-ChatBot
 
-Gemini API key i have used in this project : AIzaSyCJFuAoKhUSle7hxyr8S6ah6wDEWxg9kg4
-
-
 Download your API Key : https://aistudio.google.com/app/apikey
 
 <b>1. Create or open a Flutter project
